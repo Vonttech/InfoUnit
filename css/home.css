@@ -9,7 +9,8 @@
 }
 
 .conteudo .row-1 .col-left, .conteudo .row-1 .col-mid, .conteudo .row-1 .col-right {
-    display: flex column;
+    display: flex;
+    flex-direction: column;
     height: 15vw;
 }
 
@@ -51,4 +52,25 @@
     background: rgb(226, 226, 226);
     border-radius: 50%;
     width: 80px;
+}
+
+/*COLUNA DO MEIO DO CONTEÚDO*/
+.col-mid{
+    align-items: center;
+}
+
+.col-mid .container-feed{
+    width: 80%;
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+   
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1600px) {
 }
