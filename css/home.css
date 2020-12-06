@@ -1,0 +1,54 @@
+/*CONTEUDO*/
+
+.conteudo .row-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20vw;
+    justify-content: space-between;
+}
+
+.conteudo .row-1 .col-left, .conteudo .row-1 .col-mid, .conteudo .row-1 .col-right {
+    display: flex column;
+    height: 15vw;
+}
+
+.conteudo .row-1 .col-left {
+    width: 23%;
+}
+
+.conteudo .row-1 .col-mid {
+    border-left: 1px solid rgba(75, 75, 75, 0.322);
+    border-right: 1px solid rgba(75, 75, 75, 0.322);
+    width: 50%;
+}
+
+.conteudo .row-1 .col-right {
+    width: 23%;
+}
+
+/*COLUNA DA ESQUERDA DO CONTEÚDO*/
+
+.conteudo .nav-bar {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo .nav-bar .menu{
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.conteudo .nav-bar .menu li a{
+    color: #000;
+}
+.conteudo .nav-bar .menu li a:hover{
+    color: #134c96;
+}
+.img-container img {
+    background: rgb(226, 226, 226);
+    border-radius: 50%;
+    width: 80px;
+}
