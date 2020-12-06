@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoUnit | Login</title>
+
+
+    <!--LINK PARA CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <!--
+    ##### ADD ESSA INFORMAÇÃO À DOCUMENTAÇÃO #########
+
+    A ESTRUTURA DE IDs e CLASSES SÃO:
+    isto_e_id
+    isto-e-classe
+
+    !! SEMPRE USAR CLASSES PARA ESTILOS CSS. IDs APENAS EM CASOS EXTREMAMENTE ESPECÍFICOS !!
+
+    !! SEMPRE USAR IDs PARA FUNÇÕES DE INTERATIVIDADE. EX (Js, PHP, REACT.js, etc) !!
+-->
+    <header class="header">
+        <div class="header col-left">
+            <h1 class="titulo h1">InfoUnit</h1>
+            <h2 class="subtitulo h2">Uma rede social para alunos da UNIT</h2>
+        </div>
+        <div class="header col-right">
+            <nav>
+                <ul>
+                    <li></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="conteudo">
+        <div class="container-conteudo">
+            <div class="col-left"></div>
+
+            <div class="col-right">
+                <h2>login</h2>
+                <div class="form-container">
+                    <form id="login_form" action="" method="post" class="login-form">
+                        <label for="fmatricula">matricula:</label><br>
+                        <input type="number" id="fmatricula" name="fmatricula"><br>
+                        <label for="lsenha">senha:</label><br>
+                        <input type="password" id="lsenha" name="lsenha">
+                    </form>
+                </div>
+                <div class="container-submit">
+                    <button type="submit" form="login_form" formtarget="perfil.html">entrar</button>
+                    <a href="http://">esqueci minha senha</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="col-left">
+            <p>todos os direitos reservados.</p>
+        </div>
+        <div class="col-right">
+            <p>desenvolvido por alunos da UNIT</p>
+        </div>
+    </footer>
+
+    <!--LINK PARA JAVASCRIPT-->
+    <script src=""></script>
+    <script src=""></script>
+    <script src=""></script>
+</body>
+
+</html>

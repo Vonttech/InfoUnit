@@ -1,0 +1,97 @@
+/*
+ ##### ADD ESSA INFORMAÇÃO À DOCUMENTAÇÃO #########
+
+    !! SEMPRE USAR CLASSES PARA ESTILOS CSS. IDs APENAS EM CASOS EXTREMAMENTE ESPECÍFICOS !!
+
+    !! SEMPRE USAR IDs PARA FUNÇÕES DE INTERATIVIDADE. EX (Js, PHP, REACT.js, etc) !!
+ 
+    FOI DE ESCOLHA DO 1° DESENVOLVEDOR APLICAR O CSS EM ORDEM ALFABÉTICA
+
+    ## BOAS PRÁTICAS CSS ##
+    É BOA PRÁTICA UTILIZAR A VERSÃO RESUMIDA DO CÓDIGO, UTILIZANDO TODOS OS PARAMETROS DA PROPRIEDADE
+
+    É BOA PRÁTICA SEPARAR OS SELETORES POR NÍVEL DE GENERALIDADE, DO GERAL AO MAIS ESPECÍFICO
+
+    É BOA PRÁTICA UTILIZAR FLEXBOX PARA POSICIONAMENTOS E NÃO MARGENS
+
+    ######################
+
+    É BOM POSSUIR CONHECIMENTO DE FLEXBOX, POSICIONAMENTO DE ELEMENTOS, MEDIAQUERIES, PSEUDO ELEMENTOS E PSEUDO CLASSES
+*/
+
+/*
+=====================
+=====================
+ CONFIGURAÇÕES GERAIS
+=====================
+=====================
+*/
+
+* {
+    font-family: 'poppins';
+    padding: 0px;
+    margin: 0px;
+}
+
+.header, .footer {
+    background: #134c96;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 6vw;
+    width: 100vw;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.h1 {
+    font-size: 55px;
+}
+
+.h2 {
+    font-size: 20px;
+}
+
+.header h1, .header h2 {
+    color: white;
+    margin-left: 30px;
+}
+
+.footer .col-left, .footer .col-right {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    width: 48%;
+    height: 4vw;
+    text-transform: uppercase;
+}
+
+.footer .col-left {
+    padding-left: 25px;
+    justify-content: start;
+}
+
+.footer .col-right {
+    padding-right: 25px;
+    justify-content: flex-end;
+}
+
+.footer .col-left p, .footer .col-right p {
+    color: white;
+}
+
+/*
+=====================
+HEADER
+=====================
+*/
+

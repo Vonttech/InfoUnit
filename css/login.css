@@ -1,0 +1,100 @@
+/*
+=====================
+SECTION CONTEUDO
+=====================
+*/
+
+.conteudo {
+    background: url('/imagens/estudantes.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-conteudo {
+    background: rgb(0, 0, 0, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.container-conteudo .col-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container-conteudo .col-right h2 {
+    font-size: 45px;
+}
+
+.login-form{
+    width: 100%;
+}
+
+.container-conteudo .col-right h2, .login-form label {
+    color: white;
+    text-transform: capitalize;
+}
+.login-form input,.login-form label{
+    margin: 5px auto;
+}
+.login-form label{
+    padding-left: 10px;
+}
+.login-form input{
+    border: #5a8fd4 3px solid;
+    border-radius: 50px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 1.6em;
+    padding: 5px;
+    width: 15em;
+}
+
+.container-submit{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.container-submit button{
+    background: #5a8fd4;
+    border: 3px solid #5a8fd4;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+.container-submit button:hover{
+    background: #fff;
+    border: 3px solid #5a8fd4;
+    border-radius: 30px;
+    color: #5a8fd4;
+    transition: all 300ms ease;
+}
+
+.container-submit a{
+    color: #5a8fd4;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.container-submit a:hover{
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+}
